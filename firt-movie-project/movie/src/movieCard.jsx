@@ -1,5 +1,4 @@
 
-
 export function MovieCard({ movie }) {
 
     return (
