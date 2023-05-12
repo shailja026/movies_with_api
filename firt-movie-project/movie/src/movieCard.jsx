@@ -9,7 +9,8 @@ export function MovieCard({ movie }) {
             </div>
             <div>
                 <img
-                    src={movie.Poster !== "N/A" ? movie.Poster : "https://via.placeholder.com/400"}
+                    style={{width:"400px"}}
+                    src={movie.Poster !== "N/A" ? movie.Poster : "https://kinsta.com/wp-content/uploads/2018/08/funny-404-page.jpg"}
                     alt={movie.Title}
                 />
             </div>
